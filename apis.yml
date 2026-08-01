@@ -1,8 +1,25 @@
 aid: qualified-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qualified-health.png
 name: Qualified Health
-description: Qualified Health is a company surfaced as a portfolio company of menlo-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Qualified Health is an enterprise, healthcare-native generative AI platform for health
+  systems. It provides a single integration point into clinical, operational, and financial systems,
+  a library of pre-built and validated AI solutions, an agent and workflow builder, unified real-time
+  governance with audit trails and safety checks, and outcomes tracking across clinical, operational,
+  and financial impact. The company is backed by Menlo Ventures and serves health systems including
+  the University of Texas System, Emory Healthcare, Jefferson Health, University of Rochester Medical
+  Center, and Mercy. No public developer API, SDK, or API reference is published; integration is
+  delivered through enterprise engagements.
 url: https://raw.githubusercontent.com/api-evangelist/qualified-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Healthcare
+- Generative AI
+- Health Systems
+- AI Governance
+- Clinical Workflows
+- Enterprise AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/qualified-health-domain-security.yml
 - type: Website
   url: https://qualifiedhealthai.com
+- type: About
+  url: https://www.qualifiedhealthai.com/about-us
+- type: Blog
+  url: https://www.qualifiedhealthai.com/insights
+- type: Support
+  url: https://www.qualifiedhealthai.com/contact
+- type: PrivacyPolicy
+  url: https://www.qualifiedhealthai.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/qualifiedhealth/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
